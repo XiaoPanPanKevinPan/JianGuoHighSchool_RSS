@@ -117,7 +117,7 @@ const xml = require('xmlbuilder2');
 		}
 	});
 
-	server.listen(port, hostname, () => {
+	server.listen(port, () => {
 		console.log(`Server running at http://${hostname}:${port}/`);
 	});
 })();
