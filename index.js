@@ -89,7 +89,8 @@ const xml = require('xmlbuilder2');
 						// 該訊息的唯一標示符，建議是指向文章的永久連結
 						'@isPermaLink': true,
 						'#': `https://www2.ck.tp.edu.tw/news/${news.id}`,
-					}
+					},
+					pubDate: (new Date(news.updated_at)).toUTCString()
 				};
 
 				if(news.categoryy != null){
@@ -104,8 +105,10 @@ const xml = require('xmlbuilder2');
 
 			let rssXmlString = xml.create(basementObj).end({pretty: true});
 
-			rssXmlString = rssXmlString.replaceAll("&nbsp;", "&#x0020;");
-				// 根據 xml 的什麼奇怪規範，這個符號不合法。
+			// rssXmlString = rssXmlString.replaceAll("&nbsp;", "&#x0020;");
+				// 根據 xml 的什麼奇怪規範，符號 '&nbsp;' 不合法。
+			rssXmlString = rssXmlString.replace(/&nbsp;/g, "&#x0020;");
+				// 爲了較舊版本的 nodejs 兼容性，是故夫改用茲
 
 			res.end(rssXmlString);
 			console.log("RSS generation finished.\n");
