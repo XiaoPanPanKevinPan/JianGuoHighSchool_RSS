@@ -1,0 +1,24 @@
+{
+  "name": "jianguohighschool_rss",
+  "version": "1.0.0",
+  "description": "這個專案旨在於將建國中學官網之各類消息整合成 RSS 方式，並提供客製化功能（即只顯示特定關鍵字的消息），以免除「學校寄發衆多無用消息」而「重點全埋沒於校網之中」之弊病，並幫助同學於茫茫資訊海中查詢資料，獲得最新消息。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoPanPanKevinPan/JianGuoHighSchool_RSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiaoPanPanKevinPan/JianGuoHighSchool_RSS/issues"
+  },
+  "homepage": "https://github.com/XiaoPanPanKevinPan/JianGuoHighSchool_RSS#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "node-fetch": "^3.2.0",
+    "xmlbuilder2": "^3.0.2"
+  }
+}
