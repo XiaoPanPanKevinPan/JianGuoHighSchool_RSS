@@ -1,0 +1,301 @@
+此範例包含 imgs 的格式
+
+----
+{
+  "status": "success",
+  "message": {
+    "newses": [
+      {
+        "id": 17584,
+        "name": "防制網路兒少性剝削:青春不交易，隱私不傳佈!",
+        "tag": null,
+        "category": null,
+        "content": "<p>各位同學:讓我們一起來認識<u>兒少性剝削防制條例</u>，學習在使用網路時能保護自己的方法和應對的策略，成為防制小尖兵，一起關懷性剝削的受害者，消滅「<u>兒少性剝削」</u>。首先，讓我們共同閱讀下文:</p>\r\n<p>    <u>展翅基金會</u>響應「全球網路安全日」召開記者會，發表「青少年自拍私密照外流，兒少網安危機四伏」短文。，<strong><u>閱讀時，請畫下重點，記下關鍵字或想要問的問題，以利分組討論及完成作業。</u></strong></p>\r\n<p>             全球網路安全日，學習保護自己安全上網</p>\r\n<p>    2月6日為2018年「全球網路安全日」Safer Internet Day，台灣展翅協會與台灣微軟公司、Facebook、iWIN網路內容防護機構以及感恩基金會，一起與全球130個國家共同響應「創造、連結、相互尊重：更好的網路世界從你開始」，並針對兒少私密照外流的現象呼籲：</p>\r\n<p>1. 持有、拍攝、散布兒少私密照是犯罪：兒少性剝削防制條例已明確規範。</p>\r\n<p>2. 不拍攝私密照：了解私密照散布的風險，私密照不是維繫情感的工具。</p>\r\n<p>3. 向性性剝削說不：即便自拍或同意拍攝，也不代表同意被散布，請勇敢舉報</p>\r\n<p>4. 家長孩子要對話：不隱晦談自拍私密照，開放且持續與孩子對話。</p>\r\n<p>5. 檢舉兒少色情：請向web547網路檢舉熱線(www.web547.org.tw) 檢舉</p>\r\n<p>6. 向專業求助：如113、或web885網路諮詢熱線(www.web885.org.tw)</p>\r\n<p>資料來源: <a href=\"https://www.ecpat.org.tw/Default.aspx?ID=84&pg=1&d=4354\">https://www.ecpat.org.tw/Defau...</a></p>",
+        "google_url": null,
+        "date": "2022-01-27",
+        "user_id": 30,
+        "tid": null,
+        "updated_at": "2022-01-27 09:05:30",
+        "categoryy": null,
+        "tagg": null,
+        "user": {
+          "id": 30,
+          "name": "stud3@gl.ck.tp.edu.tw",
+          "office": "8",
+          "group": "14",
+          "officee": {
+            "id": 8,
+            "name": "學務處"
+          },
+          "groupp": {
+            "id": 14,
+            "name": "生輔組"
+          }
+        },
+        "imgs": []
+      },
+      {
+        "id": 17583,
+        "name": "轉知國立高雄科技大學辦理「教育部設計思考跨領域人才培育苗圃A類鋪植型苗圃計畫-初階種子教師工作坊」",
+        "tag": "27",
+        "category": "2",
+        "content": "轉知國立高雄科技大學來函:檢送本校辦理「教育部設計思考跨領域人才培育苗圃A類鋪植型苗圃計畫-初階種子教師工作坊」資料，敬邀貴校教師踴躍報名參加，請查照",
+        "google_url": null,
+        "date": "2022-01-27",
+        "user_id": 16,
+        "tid": null,
+        "updated_at": "2022-01-27 08:54:43",
+        "categoryy": {
+          "id": 2,
+          "name": "研習資訊"
+        },
+        "tagg": {
+          "id": 27,
+          "name": "研習",
+          "color": "#b59359"
+        },
+        "user": {
+          "id": 16,
+          "name": "acad3@gl.ck.tp.edu.tw",
+          "office": "3",
+          "group": "4",
+          "officee": {
+            "id": 3,
+            "name": "教務處"
+          },
+          "groupp": {
+            "id": 4,
+            "name": "設備組"
+          }
+        },
+        "imgs": []
+      },
+      {
+        "id": 17582,
+        "name": "轉知臺北市111學年度特殊優良教師評選主題徵選實施計畫",
+        "tag": null,
+        "category": null,
+        "content": "<p>一、轉知臺北市111學年度特殊優良教師評選主題徵選實施計畫。</p><p>二、詳如附檔。</p>",
+        "google_url": null,
+        "date": "2022-01-27",
+        "user_id": 52,
+        "tid": null,
+        "updated_at": "2022-01-27 08:47:12",
+        "categoryy": null,
+        "tagg": null,
+        "user": {
+          "id": 52,
+          "name": "pers1@gl.ck.tp.edu.tw",
+          "office": "11",
+          "group": null,
+          "officee": {
+            "id": 11,
+            "name": "人事室"
+          },
+          "groupp": null
+        },
+        "imgs": []
+      },
+      {
+        "id": 17581,
+        "name": "春節爆竹煙火施放安全事項",
+        "tag": "34",
+        "category": null,
+        "content": "<ol><li>勿於校園內施放爆竹煙火，另工務局水利工程處已禁止本市河濱公園施放爆竹煙火。</li><li>有關兒童（未滿12歲）施放爆竹煙火規定部分，依「爆竹煙火管理條例」第13條第1項規定：「父母、監護人或其他實際照顧兒童之人於兒童施放一般爆竹煙火時，應行陪同。」；另禁止兒童施放飛行類（如沖天炮）、升空類（如空中美人）及摔炮類等一般爆竹煙火。</li><li>「本市爆竹煙火施放管制辦法」已規範高速公路、大 眾捷運系統及高架道路路權範圍內、古蹟、醫院、護理之家、產後護理機構及老人福利機構等場所及基地範圍內，不得施放爆竹煙火，請協助宣導以電子鞭炮或爆竹音效替代傳統爆竹燃放，爆竹燃放音效可至消防局網站 <a href=\"https://reurl.cc/LpX1N7\">https://reurl.cc/LpX1N7</a> 下載使用。</li></ol><figure><img src=\"https://wwws.ck.tp.edu.tw/uploads/img/redactor/20220127/61f1eaa9d2d64.jpg\" data-image=\"3442\"></figure>",
+        "google_url": null,
+        "date": "2022-01-26",
+        "user_id": 55,
+        "tid": null,
+        "updated_at": "2022-01-27 08:43:58",
+        "categoryy": null,
+        "tagg": {
+          "id": 34,
+          "name": "宣導",
+          "color": "#b59359"
+        },
+        "user": {
+          "id": 55,
+          "name": "mio@gl.ck.tp.edu.tw",
+          "office": "12",
+          "group": null,
+          "officee": {
+            "id": 12,
+            "name": "教官室"
+          },
+          "groupp": null
+        },
+        "imgs": [
+          {
+            "id": 3442,
+            "url": "/uploads/img/redactor/20220127/61f1eaa9d2d64.jpg",
+            "img_name": null
+          }
+        ]
+      },
+      {
+        "id": 17580,
+        "name": "賀！本校通過臺北市國際學校獎ISA升級認證最高榮譽！",
+        "tag": "41",
+        "category": "5",
+        "content": "<h3>賀！本校通過臺北市國際學校獎ISA升級認證最高榮譽！</h3><figure><img src=\"https://wwws.ck.tp.edu.tw/uploads/img/redactor/20220127/61f1e73c8467c.jpg\" data-image=\"3441\"></figure>",
+        "google_url": null,
+        "date": "2022-01-25",
+        "user_id": 23,
+        "tid": null,
+        "updated_at": "2022-01-27 08:28:50",
+        "categoryy": {
+          "id": 5,
+          "name": "榮譽榜"
+        },
+        "tagg": {
+          "id": 41,
+          "name": "榮譽榜",
+          "color": "#b59359"
+        },
+        "user": {
+          "id": 23,
+          "name": "acad5@gl.ck.tp.edu.tw",
+          "office": "3",
+          "group": "11",
+          "officee": {
+            "id": 3,
+            "name": "教務處"
+          },
+          "groupp": {
+            "id": 11,
+            "name": "實驗研究組"
+          }
+        },
+        "imgs": [
+          {
+            "id": 3441,
+            "url": "/uploads/img/redactor/20220127/61f1e73c8467c.jpg",
+            "img_name": null
+          }
+        ]
+      },
+      {
+        "id": 17579,
+        "name": "臺北市政府消防局災害防救建設成果宣導",
+        "tag": "34",
+        "category": null,
+        "content": "<ol><li>臺北市政府消防局為提升學校自主防災意識，展現本市近年災害防救建設成果，特製作「本市災害應變中心介紹」、「總合治水與海綿城市」、「防災公園與防災士介紹」、「温室氣體淨零排放」及「防疫作為」等5部影片。</li><li><a href=\"https://drive.google.com/drive/folders/1Y2AwelHYAXKulvTMjLTJSd1-qAq2egP2\" target=\"_blank\">https://drive.google.com/drive...</a></li></ol>",
+        "google_url": null,
+        "date": "2022-01-26",
+        "user_id": 55,
+        "tid": null,
+        "updated_at": "2022-01-27 08:27:43",
+        "categoryy": null,
+        "tagg": {
+          "id": 34,
+          "name": "宣導",
+          "color": "#b59359"
+        },
+        "user": {
+          "id": 55,
+          "name": "mio@gl.ck.tp.edu.tw",
+          "office": "12",
+          "group": null,
+          "officee": {
+            "id": 12,
+            "name": "教官室"
+          },
+          "groupp": null
+        },
+        "imgs": []
+      },
+      {
+        "id": 17573,
+        "name": "【補考】110學年度上學期補考名單 查詢方式",
+        "tag": "6",
+        "category": null,
+        "content": "<h4><strong></strong>110學年度上學期補考名單 查詢方式<strong></strong></h4>\r\n<h4><strong>一、學生或家長可自行至新校務行政系統查詢</strong><strong>學期</strong><strong>成績</strong></h4>\r\n<h4>     <strong>＊查詢方式：</strong><strong>學生線上</strong><strong>→</strong><strong>各項查詢</strong><strong>→</strong><strong>查詢個人成績</strong><strong>→</strong><strong>選取學年期</strong><strong>(</strong><strong>需反黃</strong><strong>)</strong><strong>→</strong><strong>選擇</strong><strong>(</strong><strong>學期成績</strong><strong>)</strong><strong>頁籤</strong></h4>\r\n<h4>     <strong>＊</strong><strong>學期成績未達補考標準者不得補考</strong><strong>（一般生補考標準為</strong><strong>40</strong><strong>～</strong><strong>59</strong><strong>分）</strong></h4>\r\n<h4><strong>二、紙本補考名單請</strong><strong>親洽</strong><strong>教務處註冊組各年級幹事處查閱</strong></h4><h4>　　<strong>或上班時間電洽</strong><strong>(02)2303-4381</strong></h4><h4>　　<strong>分機</strong><strong>216</strong><strong>高一、高三幹事</strong><br>\r\n<strong>　　分機</strong><strong>205</strong><strong>高二幹事</strong></h4>\r\n<h4>詳細補考日程及選修科目補考方式，請密切注意教學組最新公告。</h4>",
+        "google_url": null,
+        "date": "2022-01-26",
+        "user_id": 13,
+        "tid": null,
+        "updated_at": "2022-01-26 17:31:33",
+        "categoryy": null,
+        "tagg": {
+          "id": 6,
+          "name": "公告",
+          "color": "#2B447E"
+        },
+        "user": {
+          "id": 13,
+          "name": "acad21@gl.ck.tp.edu.tw",
+          "office": "3",
+          "group": "9",
+          "officee": {
+            "id": 3,
+            "name": "教務處"
+          },
+          "groupp": {
+            "id": 9,
+            "name": "註冊組"
+          }
+        },
+        "imgs": []
+      },
+      {
+        "id": 17572,
+        "name": "淡江大學110學年度「漫遊旅設」未來設計創意營隊活動",
+        "tag": null,
+        "category": null,
+        "content": "<p>一、為激發高中學生探究未來思考及關懷在地議題，特舉辦旨揭活動。</p>\r\n\r\n<p>二、活動日期：111年2月19日（星期六）。</p>\r\n<p>三、活動免繳報名費。</p>\r\n<p>四、採線上報名，報名截止日期為2月14日，報名網址：</p><p><a href=\"http://enroll.tku.edu.tw/course.aspx?cid=tdjx1110219\">http://enroll.tku.edu.tw/cours...</a></p>。<p></p>",
+        "google_url": null,
+        "date": "2022-01-26",
+        "user_id": 116,
+        "tid": null,
+        "updated_at": "2022-01-26 16:36:00",
+        "categoryy": null,
+        "tagg": null,
+        "user": {
+          "id": 116,
+          "name": "stud22@gl.ck.tp.edu.tw",
+          "office": "8",
+          "group": "13",
+          "officee": {
+            "id": 8,
+            "name": "學務處"
+          },
+          "groupp": {
+            "id": 13,
+            "name": "社團活動組"
+          }
+        },
+        "imgs": []
+      },
+      {
+        "id": 17571,
+        "name": "公平交易委員會「公平30有禮」有獎徵答網路活動",
+        "tag": null,
+        "category": null,
+        "content": "<ul><li>公平交易委員會於民國81年1月27日成立，為迎接30週年的到來，業建置「公平三十 交易磐石」網站(https://www.ftc30.tw/)，並於本(111)年1月10日至2月22日辦理有獎徵答活動，期透過網路互動問答方式，增進民眾對業務職掌及主管法規之瞭解，維護自身權益。</li><li>活動相關資訊，請參閱活動網站(<a href=\"https://ftc30event.com\">https://ftc30event.com</a>/index.php)。</li></ul>",
+        "google_url": null,
+        "date": "2022-01-26",
+        "user_id": 116,
+        "tid": null,
+        "updated_at": "2022-01-26 16:32:53",
+        "categoryy": null,
+        "tagg": null,
+        "user": {
+          "id": 116,
+          "name": "stud22@gl.ck.tp.edu.tw",
+          "office": "8",
+          "group": "13",
+          "officee": {
+            "id": 8,
+            "name": "學務處"
+          },
+          "groupp": {
+            "id": 13,
+            "name": "社團活動組"
+          }
+        },
+        "imgs": []
+      }
+    ],
+    "total_pages": 165
+  }
+}

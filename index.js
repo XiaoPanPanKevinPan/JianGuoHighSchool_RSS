@@ -16,28 +16,38 @@ const xml = require('xmlbuilder2');
 		let isOk = false;
 		let newses = [];
 		for(let i=1; i<=5; i++){
-			let fetchResponse = await fetch(
-				"https://wwws.ck.tp.edu.tw/api/news/news",
-				{
-					method: "POST",
-					body: JSON.stringify( {page: i} )
+			let fetchResponse;
+			try{
+				fetchResponse = await fetch(
+					"https://wwws.ck.tp.edu.tw/api/news/news",
+					{
+						method: "POST",
+						body: JSON.stringify( {page: i} )
+					}
+				);
+				if(!fetchResponse.ok){
+					throw "not a response with status between 200~299";
 				}
-			);
-
-			if(fetchResponse.ok){
-				isOk = true;
-			}else{
-				console.log(`fetch failed at page=${i}`);
+			}catch(e){
+				console.log(`fetch failed at page=${i} :: `, e);
 				continue;
 			}
 
-			let originJson = await fetchResponse.json();
+			let originJson;
+			try{
+				originJson = await fetchResponse.json();
+			}catch(e){
+				console.log(`fetch page=${i} succeeded, but we cannot parse it as JSON :: `, e);
+				continue;
+			}
+
 			if(originJson.status != "success"){
-				console.log(`fetch page=${i} successed but the api returned weird status "${originJson.status}"`);
+				console.log(`fetch page=${i} succeeded, but the api returned weird status "${originJson.status}"`);
 				continue;
 			}
 
 			newses = newses.concat(originJson.message.newses);
+			isOk = true;
 			console.log(`fetch page=${i} succeeded `);
 		}
 
