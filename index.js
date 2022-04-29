@@ -3,6 +3,7 @@ const xml = require('xmlbuilder2');
 
 (async ()=>{
 	const fetch = (await import('node-fetch')).default;
+	const htmlEntities = (await import("html-entities")).default;
 
 	const hostname = '127.0.0.1';
 	const port = 3000;
@@ -50,7 +51,6 @@ const xml = require('xmlbuilder2');
 			isOk = true;
 			console.log(`fetch page=${i} succeeded `);
 		}
-
 		if(isOk){
 			// let responseText = await response.text();
 			let basementObj = { rss: {
@@ -87,10 +87,17 @@ const xml = require('xmlbuilder2');
 			}};
 
 			for(let news of newses){
+				let description = htmlEntities.decode(news.content);
+				description = htmlEntities.encode(description, {level: "xml"});
+					// 解碼 html5 再編碼以 xml 轉義字符，增加了相容性
+				description = htmlEntities.encode(description, {level: "xml"});
+					// 編碼第二次，以防止 xmlbuilder2 的怪異編碼行為。
+					// （即，似乎針對已符合 xml 規範的文字不更動，而不符者編碼，但卻對 &amp; 有特異行為）
+
 				let itemObj = {
 					title: news.name,
 					link: `https://www2.ck.tp.edu.tw/news/${news.id}`,
-					description: news.content,
+					description: description,
 					author: `${news.user.officee.name}${(news.user.groupp != null) ? news.user.groupp.name : ""} ${news.user.name}`,
 						// 形如 "教務處教學組 acad12@gl.ck.tp.edu.tw"
 					category: (news.tagg != null) ? news.tagg.name : "",
@@ -108,17 +115,14 @@ const xml = require('xmlbuilder2');
 					itemObj.category += news.categoryy.name;
 				}else{
 					if(itemObj.category == "") delete itemObj.category;
+						// clear to prevent meaningless <category /> from producing
 				}
 
 				basementObj.rss.channel.item.push(itemObj);
 			}
 
 			let rssXmlString = xml.create(basementObj).end({pretty: true});
-
-			// rssXmlString = rssXmlString.replaceAll("&nbsp;", "&#x0020;");
-				// 根據 xml 的什麼奇怪規範，符號 '&nbsp;' 不合法。
-			rssXmlString = rssXmlString.replace(/&nbsp;/g, "&#x0020;");
-				// 爲了較舊版本的 nodejs 兼容性，是故夫改用茲
+			console.log(rssXmlString);
 
 			res.end(rssXmlString);
 			console.log("RSS generation finished.\n");
