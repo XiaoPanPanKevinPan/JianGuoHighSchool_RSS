@@ -122,7 +122,6 @@ const xml = require('xmlbuilder2');
 			}
 
 			let rssXmlString = xml.create(basementObj).end({pretty: true});
-			console.log(rssXmlString);
 
 			res.end(rssXmlString);
 			console.log("RSS generation finished.\n");
