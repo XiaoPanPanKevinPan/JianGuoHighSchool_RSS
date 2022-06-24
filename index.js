@@ -128,6 +128,7 @@ const xml = require('xmlbuilder2');
 		}else{
 			console.log("All Source is Failed.\n");
 		}
+		console.log(Date());
 	});
 
 	server.listen(port, () => {
